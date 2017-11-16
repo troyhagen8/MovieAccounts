@@ -1,0 +1,22 @@
+C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=MvcMovie
+--content-root=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\HelloWorld\Index.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\HelloWorld\Welcome.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Home\About.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Home\Contact.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Home\Index.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Movies\Create.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Movies\Delete.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Movies\Details.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Movies\Edit.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Movies\Index.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Reviews\Create.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Reviews\Delete.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Reviews\Edit.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Shared\Error.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Shared\_Layout.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\_ViewImports.cshtml
+--file=C:\Users\Troy Hagen\Documents\Stockton University\Web App\MvcMovieReviews\MvcMovie\Views\_ViewStart.cshtml
