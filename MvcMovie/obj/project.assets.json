@@ -13116,7 +13116,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hagent2\\.nuget\\packages\\": {},
+    "C:\\Users\\Troy Hagen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13125,17 +13125,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\hagent2\\Documents\\MovieAccount\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "C:\\Users\\Troy Hagen\\Documents\\Stockton University\\Web App\\Movie_Accounts\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\hagent2\\Documents\\MovieAccount\\MvcMovie\\MvcMovie.csproj",
-      "packagesPath": "C:\\Users\\hagent2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hagent2\\Documents\\MovieAccount\\MvcMovie\\obj\\",
+      "projectPath": "C:\\Users\\Troy Hagen\\Documents\\Stockton University\\Web App\\Movie_Accounts\\MvcMovie\\MvcMovie.csproj",
+      "packagesPath": "C:\\Users\\Troy Hagen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Troy Hagen\\Documents\\Stockton University\\Web App\\Movie_Accounts\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hagent2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Troy Hagen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

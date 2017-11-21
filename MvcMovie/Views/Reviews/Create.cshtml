@@ -1,8 +1,11 @@
 ﻿@model MvcMovie.Models.Review
+@using Microsoft.AspNetCore.Identity
 
 @{
     ViewData["Title"] = "Create";
 }
+
+@inject UserManager<ApplicationUser> UserManager;
 
 <h2>Create</h2>
 
@@ -17,7 +20,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="ReviewerName" class="control-label"></label>
-                <input asp-for="ReviewerName" class="form-control" />
+                <input asp-for="ReviewerName" value ="@UserManager.GetUserAsync(User).Result.ScreenName" class="form-control" readonly/>
                 <span asp-validation-for="ReviewerName" class="text-danger"></span>
             </div>
             <div class="form-group">

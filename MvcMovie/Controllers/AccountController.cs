@@ -36,7 +36,7 @@ namespace MvcMovie.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, ScreenName = model.ScreenName};
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -91,6 +91,24 @@ namespace MvcMovie.Controllers
         public async Task<IActionResult> LogOut()
         {
             await _signInManager.SignOutAsync();
+            return RedirectToAction(nameof(HomeController.Index), "Home");
+        }
+
+        public IActionResult EditScreenName()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditScreenName(ApplicationUser model)
+        {
+
+            var user = await _userManager.GetUserAsync(User);
+
+            user.ScreenName = model.ScreenName;
+
+            await _userManager.UpdateAsync(user);
+
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
 
