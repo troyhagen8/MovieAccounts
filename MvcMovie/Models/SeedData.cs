@@ -22,7 +22,7 @@ namespace MvcMovie.Models
                      new Movie
                      {
                          Title = "When Harry Met Sally",
-                         ReleaseDate = DateTime.Parse("1989-1-11"),
+                         ReleaseDate = 1989,
                          Genre = "Romantic Comedy",
                          Rating = "R",
                          Price = 7.99M
@@ -31,7 +31,7 @@ namespace MvcMovie.Models
                      new Movie
                      {
                          Title = "Ghostbusters ",
-                         ReleaseDate = DateTime.Parse("1984-3-13"),
+                         ReleaseDate = 1984,
                          Genre = "Comedy",
                          Rating = "PG",
                          Price = 8.99M
@@ -40,7 +40,7 @@ namespace MvcMovie.Models
                      new Movie
                      {
                          Title = "Ghostbusters 2",
-                         ReleaseDate = DateTime.Parse("1986-2-23"),
+                         ReleaseDate = 1986,
                          Rating = "PG",
                          Genre = "Comedy",
                          Price = 9.99M
@@ -49,7 +49,7 @@ namespace MvcMovie.Models
                    new Movie
                    {
                        Title = "Rio Bravo",
-                       ReleaseDate = DateTime.Parse("1959-4-15"),
+                       ReleaseDate = 1959,
                        Genre = "Western",
                        Rating = "R",
                        Price = 3.99M
